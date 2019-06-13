@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box
+}
+.wrapper{
+    box-sizing: border-box;
+}
+header{
+    font-family: "Megrim", cursive;
+    background-color: rgb(142, 49, 165);
+    color: white;
+    font-size: 40px;
+    width: 350px;
+    /*float: none*/
+}
+.instructions{
+    background-color:#67bdc4;
+    color: white;
+    width: 500px;
+}
+.randomNumber{
+    height: 150px;
+    width: 175px;
+    margin-right: 25px;
+    background-color: #85c67d;
+    float: left;
+}
+#randomNumber{
+    font-size: 150px;
+}
+.winLossBox{
+    height: 150px;
+    width: 80px;
+    background-color: skyblue;
+    float: left;
+}
+.crystals{
+    clear: both;
+    padding-top: 20px;
+}
+.btn{
+    height: 150px;
+    width: 150px;
+    float: left;
+    padding: 5px;
+    margin: 5px;
+}
+/* Gem1 */
+.btn-1{
+    background-color:turquoise;
+    background-image: url(../images/rainbowCrystal.png);
+}
+/* Gem2 */
+.btn-2{
+    background-color:turquoise;
+    background-image: url(../images/whiteCrystal.png);
+}
+/* Gem3 */
+.btn-3{
+    background-color:turquoise;
+    background-image: url(../images/purpleCrystal.png);
+}
+/* Gem4 */
+.btn-4{
+    background-color:turquoise;
+    background-image: url(../images/blueCrystal.png);
+}
+.yourScoreIs{
+    clear: both;
+    background-color: rgb(142, 49, 165);
+    width: 250px;
+}
+.crystalTotals{
+    clear: both;
+    background-color:turquoise;
+    width: 250px;
+    height: 200px;
+}
+#crystalTotals{
+    font-size: 150px;
+}
+body{
+background-image: url(../images/crystalBackground.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+/* TO DO: find background image /*
