@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector Game</title>
+    <link rel="stylesheet" text="text/css" href="assets/css/style.css" link>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <header>Crystal Collector!</header>
+
+
+        <div class="instructions">
+
+            <h4>
+                <br>
+                <li>You will be given a random number at the start of the game..</li>
+                <br>
+                <li>There are four crystals below. By clicking on a crystal you will add a specific amount of points to
+                    your total score.</li>
+                <br>
+                <li>You win the game by matching your total score to the random number, your lose the game if your total
+                    score goes above the random number.</li>
+                <br>
+                <li>The value of each crystal is hidden from you until you click on it.</li>
+                <br>
+                <li>Each time when the game starts, the game will change the values of each crystal.</li>
+                <br>
+            </h4>
+        </div>
+        <div class="randomNumber"><span id="randomNumber"></span>
+        </div>
+
+        <div class="winLossBox">
+            <br>
+            <br>
+            <div class="wins">Wins:<span id="winCounter"></span></div>
+            <br>
+            <br>
+            <div class="losses">Losses:<span id="lossCounter"></span></div>
+        </div>
+
+        <div class="crystals">
+            <div class="btn btn-1"></div>
+            <div class="btn btn-2"></div>
+            <div class="btn btn-3"></div>
+            <div class="btn btn-4"></div>
+        </div>
+
+        <div class="yourScoreIs">
+            <h2>Your Score Is:</h2>
+            <div class="crystalTotals"><span id="crystalTotals" id="crystalTotalsReset"></span>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/javascript/game.js"></script>
+</body>
+
+</html>
